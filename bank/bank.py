@@ -6,7 +6,7 @@ from keras.models import Sequential
 from sklearn.model_selection import cross_val_score
 
 feature_names = ['age','job','martial','education','default','balance','housing','loan','contact','day','month','duration','campaign','pdays','previous','poutcome','y']
-dataset = pd.read_csv('/Users/danny/Desktop/Practice Deep Learning/bank/bank.csv',sep=';',names = feature_names)
+dataset = pd.read_csv('bank.csv',sep=';',names = feature_names)
 dataset.dropna(inplace=True)
 dataset.replace(('yes','no'),(1,0), inplace=True)
 dataset.replace(('unknown'),('0'),inplace=True)
