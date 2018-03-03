@@ -6,6 +6,4 @@ Abstract: The data is related with direct marketing campaigns (phone calls) of a
 
 The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. 
 
-To identify if a customer will subscribe to the product or not using Deep Neural Networks.
-
-88.46% accuracy was acheived by using 6 hidden layers including input and output layer.
+To identify if a customer will subscribe to the product or not using Ensemble learning: using a random forest.
