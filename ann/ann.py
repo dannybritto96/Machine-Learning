@@ -46,6 +46,6 @@ model.compile(optimizer='rmsprop',loss='binary_crossentropy',metrics=['accuracy'
 model.fit(scaled_features,all_classes,batch_size=30,epochs = 300)
 
 #################
-
+# Make new predictions
 new_prediction = model.predict(scaler.transform(np.array([[42,3,2,3]])))
 new_prediction = (new_prediction > 0.5)
