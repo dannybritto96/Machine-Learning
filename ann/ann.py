@@ -6,7 +6,7 @@ from keras.models import Sequential
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import GridSearchCV
 
-dataset = pd.read_csv('/Users/danny/Desktop/DeepLearning/mammographic_masses.data.txt',na_values=['?'],names = ['BI-RADS', 'age', 'shape', 'margin', 'density', 'severity'])
+dataset = pd.read_csv('mammographic_masses.data.txt',na_values=['?'],names = ['BI-RADS', 'age', 'shape', 'margin', 'density', 'severity'])
 dataset.dropna(inplace=True)
 all_features = dataset[['age','shape','margin','density']].values
 all_classes = dataset['severity'].values
