@@ -3,6 +3,8 @@ import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 f = open('SMSSpamCollection',"r")
+
+# Data Preprocessing
 y = []
 x = []
 z = []
@@ -21,8 +23,12 @@ for i in range(len(x)):
         z.append(x[i].split('\n')[0])
 del(x)
 
+# Loading Data into Dataframe
+
 dataset = pd.DataFrame({'classification':z,
                         'message':y})
+
+# Implementing Count Vectorizer and MultinomialNB
 
 vectorizer = CountVectorizer()
 counts = vectorizer.fit_transform(dataset['message'].values)
@@ -30,6 +36,8 @@ counts = vectorizer.fit_transform(dataset['message'].values)
 classifier = MultinomialNB()
 targets = dataset['classification'].values
 classifier.fit(counts,targets)
+
+# Make new predictions
 
 testdata = ["Free money offer!!","Hey let's meet over a cup of coffee"]
 testdata_counts = vectorizer.transform(testdata)
