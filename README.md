@@ -20,4 +20,5 @@ Install Jupyter to view ipynb(IPython Notebook) files.
 <ul>
   <li><a href="https://github.com/dannybritto96/ML/tree/master/multivariate_regression">Finding which features affects the output largely in a Airfoil Self-Noise Data Set</li>
 </ul>
-https://dannybritto96.github.io
+
+<a href="https://dannybritto96.github.io">dannybritto96.github.io</a>
