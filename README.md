@@ -10,6 +10,9 @@ Install Jupyter to view ipynb(IPython Notebook) files.
 1. <a href="https://github.com/dannybritto96/ML/tree/master/ann">ANN to classify mammographic masses as benign or malignant based on its features
 2. <a href="https://github.com/dannybritto96/ML/tree/master/bank_notes_classifier">ANN to classify authenticity of bank notes based on its features
 
+### Random Forests and Decision Trees
+
+1. <a href="https://github.com/dannybritto96/ML/tree/master/bank">To find if a customer will subscribe a term deposit or not</a>
 
 ### Naive Bayes Classifier
 
