@@ -13,7 +13,7 @@ Install Jupyter to view ipynb(IPython Notebook) files.
 
 ### Naive Bayes Classifier
 
-1. <a href="https://github.com/dannybritto96/ML/tree/master/smsspamclassifier">SMS Spam/Ham Classifier</a></li>
+1. <a href="https://github.com/dannybritto96/ML/tree/master/smsspamclassifier">SMS Spam/Ham Classifier</a>
 
 
 ### Multivariate Regression
