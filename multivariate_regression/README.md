@@ -16,4 +16,3 @@ The only output is:
 6. Scaled sound pressure level, in decibels. 
 
 
-<strong>Observation:</strong> Suction side displacement thickness influences the Scaled sound pressure level more than any other parameter.
